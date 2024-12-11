@@ -1,0 +1,384 @@
+[
+    {
+        "name": "Clash Set A",
+        "mode": "intersection",
+        "a": [
+            {
+                "file": "C:\\ifcs\\example.ifc",
+                "selector": "IfcBeam",
+                "mode": "i"
+            }
+        ],
+        "b": [
+            {
+                "file": "C:\\ifcs\\example.ifc",
+                "selector": "IfcColumn",
+                "mode": "i"
+            }
+        ],
+        "tolerance": 0.01,
+        "check_all": true,
+        "clashes": {
+            "1a_3Mif1b2Cwihe1FTdiYq-1a_3Mif1b2Cwihe1FTdiVH": {
+                "a_global_id": "1a_3Mif1b2Cwihe1FTdiYq",
+                "b_global_id": "1a_3Mif1b2Cwihe1FTdiVH",
+                "a_ifc_class": "IfcColumn",
+                "b_ifc_class": "IfcBeam",
+                "a_name": "NZ-PFC Channels-Column:150PFC17.7:953154",
+                "b_name": "NZ-PFC Channels beam:150PFC17.7:951335",
+                "type": "pierce",
+                "p1": [
+                    -17.147539130408042,
+                    101.2874844347089,
+                    4.358
+                ],
+                "p2": [
+                    -17.277986887849764,
+                    101.33967286850813,
+                    4.358
+                ],
+                "distance": 0.07500000000000284
+            },
+            "1a_3Mif1b2Cwihe1FTdi$a-1a_3Mif1b2Cwihe1FTdiVH": {
+                "a_global_id": "1a_3Mif1b2Cwihe1FTdi$a",
+                "b_global_id": "1a_3Mif1b2Cwihe1FTdiVH",
+                "a_ifc_class": "IfcColumn",
+                "b_ifc_class": "IfcBeam",
+                "a_name": "NZ-PFC Channels-Column:150PFC17.7:953362",
+                "b_name": "NZ-PFC Channels beam:150PFC17.7:951335",
+                "type": "pierce",
+                "p1": [
+                    -18.412791790395527,
+                    98.12448539175618,
+                    4.1030000000000015
+                ],
+                "p2": [
+                    -18.543239547837242,
+                    98.17667382555538,
+                    4.1030000000000015
+                ],
+                "distance": 0.07500000000000284
+            },
+            "0XJflNVWr2jfrF51T8IWxV-1HXmQbW497zOJ$tovXeLME": {
+                "a_global_id": "0XJflNVWr2jfrF51T8IWxV",
+                "b_global_id": "1HXmQbW497zOJ$tovXeLME",
+                "a_ifc_class": "IfcColumn",
+                "b_ifc_class": "IfcBeam",
+                "a_name": "NZ-UC-Column:310UC96.8:686819",
+                "b_name": "NZ-PFC Channels beam:300PFC40.1:695011",
+                "type": "protrusion",
+                "p1": [
+                    -32.3882725256909,
+                    96.94042644555199,
+                    3.91999999999982
+                ],
+                "p2": [
+                    -32.388056586819424,
+                    96.94134307516634,
+                    3.907668254408735
+                ],
+                "distance": 0.012367650899398858
+            },
+            "1HXmQbW497zOJ$tovXeLF0-1HXmQbW497zOJ$tovXeLKC": {
+                "a_global_id": "1HXmQbW497zOJ$tovXeLF0",
+                "b_global_id": "1HXmQbW497zOJ$tovXeLKC",
+                "a_ifc_class": "IfcBeam",
+                "b_ifc_class": "IfcColumn",
+                "a_name": "NZ-PFC Channels beam:300PFC40.1:695469",
+                "b_name": "NZ-PFC Channels-Column:300PFC40.1:694881",
+                "type": "pierce",
+                "p1": [
+                    -19.076970682451968,
+                    103.97241828142528,
+                    4.458855963723224
+                ],
+                "p2": [
+                    -19.080481517961204,
+                    103.95680737550472,
+                    4.457634113627468
+                ],
+                "distance": 0.016047406871197323
+            },
+            "1HXmQbW497zOJ$tovXeLF0-1HXmQbW497zOJ$tovXeL5o": {
+                "a_global_id": "1HXmQbW497zOJ$tovXeLF0",
+                "b_global_id": "1HXmQbW497zOJ$tovXeL5o",
+                "a_ifc_class": "IfcBeam",
+                "b_ifc_class": "IfcColumn",
+                "a_name": "NZ-PFC Channels beam:300PFC40.1:695469",
+                "b_name": "NZ-PFC Channels-Column:300PFC40.1:695839",
+                "type": "pierce",
+                "p1": [
+                    -20.62098490920059,
+                    97.10696965235567,
+                    3.9215041208817545
+                ],
+                "p2": [
+                    -20.686813074998753,
+                    96.8142651663453,
+                    3.8985944315863357
+                ],
+                "distance": 0.09000000000000341
+            },
+            "0VNYAWfXv8JvIRVfOzYGlh-0VNYAWfXv8JvIRVfOzYGYh": {
+                "a_global_id": "0VNYAWfXv8JvIRVfOzYGlh",
+                "b_global_id": "0VNYAWfXv8JvIRVfOzYGYh",
+                "a_ifc_class": "IfcBeam",
+                "b_ifc_class": "IfcColumn",
+                "a_name": "NZ-PFC Channels beam:300PFC40.1:693651",
+                "b_name": "NZ-PFC Channels-Column:300PFC40.1:693971",
+                "type": "pierce",
+                "p1": [
+                    -33.59520109691283,
+                    103.97527287508689,
+                    4.460499999999909
+                ],
+                "p2": [
+                    -33.604510993751695,
+                    103.93773240416758,
+                    4.457546559570171
+                ],
+                "distance": 0.038790255817224784
+            },
+            "1HXmQbW497zOJ$tovXeLBL-0VNYAWfXv8JvIRVfOzYGlh": {
+                "a_global_id": "1HXmQbW497zOJ$tovXeLBL",
+                "b_global_id": "0VNYAWfXv8JvIRVfOzYGlh",
+                "a_ifc_class": "IfcColumn",
+                "b_ifc_class": "IfcBeam",
+                "a_name": "NZ-PFC Channels-Column:300PFC40.1:695736",
+                "b_name": "NZ-PFC Channels beam:300PFC40.1:693651",
+                "type": "protrusion",
+                "p1": [
+                    -35.228073326190966,
+                    97.08788568461001,
+                    3.93
+                ],
+                "p2": [
+                    -35.227898562532644,
+                    97.08862753133559,
+                    3.9200196710378465
+                ],
+                "distance": 0.010009387848082156
+            },
+            "1HXmQbW497zOJ$tovXeLJe-1HXmQbW497zOJ$tovXeLLm": {
+                "a_global_id": "1HXmQbW497zOJ$tovXeLJe",
+                "b_global_id": "1HXmQbW497zOJ$tovXeLLm",
+                "a_ifc_class": "IfcBeam",
+                "b_ifc_class": "IfcColumn",
+                "a_name": "NZ-PFC Channels beam:300PFC40.1:695173",
+                "b_name": "NZ-PFC Channels-Column:300PFC40.1:694813",
+                "type": "pierce",
+                "p1": [
+                    -27.753332460034905,
+                    103.97483266310311,
+                    4.46049999999991
+                ],
+                "p2": [
+                    -27.762534893909674,
+                    103.93773803454768,
+                    4.457581581193191
+                ],
+                "distance": 0.038330319920601374
+            },
+            "1HXmQbW497zOJ$tovXeLJe-1HXmQbW497zOJ$tovXeLAU": {
+                "a_global_id": "1HXmQbW497zOJ$tovXeLJe",
+                "b_global_id": "1HXmQbW497zOJ$tovXeLAU",
+                "a_ifc_class": "IfcBeam",
+                "b_ifc_class": "IfcColumn",
+                "a_name": "NZ-PFC Channels beam:300PFC40.1:695173",
+                "b_name": "NZ-PFC Channels-Column:300PFC40.1:695795",
+                "type": "protrusion",
+                "p1": [
+                    -29.456595874890766,
+                    96.82659459133733,
+                    3.9153861698011365
+                ],
+                "p2": [
+                    -29.456595874890766,
+                    96.82659459133731,
+                    3.93
+                ],
+                "distance": 0.014613830198863642
+            },
+            "1HXmQbW497zOJ$tovXeLDX-1HXmQbW497zOJ$tovXeLLO": {
+                "a_global_id": "1HXmQbW497zOJ$tovXeLDX",
+                "b_global_id": "1HXmQbW497zOJ$tovXeLLO",
+                "a_ifc_class": "IfcBeam",
+                "b_ifc_class": "IfcColumn",
+                "a_name": "NZ-PFC Channels beam:300PFC40.1:695308",
+                "b_name": "NZ-PFC Channels-Column:300PFC40.1:694837",
+                "type": "pierce",
+                "p1": [
+                    -24.83238635259164,
+                    103.97460977986768,
+                    4.460499999999911
+                ],
+                "p2": [
+                    -24.841533387124443,
+                    103.93773767958047,
+                    4.457599092004655
+                ],
+                "distance": 0.03810033185592793
+            },
+            "1HXmQbW497zOJ$tovXeLCm-1HXmQbW497zOJ$tovXeLKc": {
+                "a_global_id": "1HXmQbW497zOJ$tovXeLCm",
+                "b_global_id": "1HXmQbW497zOJ$tovXeLKc",
+                "a_ifc_class": "IfcBeam",
+                "b_ifc_class": "IfcColumn",
+                "a_name": "NZ-PFC Channels beam:300PFC40.1:695389",
+                "b_name": "NZ-PFC Channels-Column:300PFC40.1:694859",
+                "type": "pierce",
+                "p1": [
+                    -21.911422376886414,
+                    103.97438268724378,
+                    4.460499999999909
+                ],
+                "p2": [
+                    -21.920511549293295,
+                    103.93773253504162,
+                    4.457616602815932
+                ],
+                "distance": 0.0378703141101831
+            },
+            "1HXmQbW497zOJ$tovXeLCm-1HXmQbW497zOJ$tovXeL5_": {
+                "a_global_id": "1HXmQbW497zOJ$tovXeLCm",
+                "b_global_id": "1HXmQbW497zOJ$tovXeL5_",
+                "a_ifc_class": "IfcBeam",
+                "b_ifc_class": "IfcColumn",
+                "a_name": "NZ-PFC Channels beam:300PFC40.1:695389",
+                "b_name": "NZ-PFC Channels-Column:300PFC40.1:695827",
+                "type": "pierce",
+                "p1": [
+                    -23.610524275824698,
+                    97.12311610153063,
+                    3.92148661007022
+                ],
+                "p2": [
+                    -23.682741213869612,
+                    96.8319166773767,
+                    3.8985769207748
+                ],
+                "distance": 0.09000000000000341
+            },
+            "1HXmQbW497zOJ$tovXeM$a-1HXmQbW497zOJ$tovXeMqN": {
+                "a_global_id": "1HXmQbW497zOJ$tovXeM$a",
+                "b_global_id": "1HXmQbW497zOJ$tovXeMqN",
+                "a_ifc_class": "IfcColumn",
+                "b_ifc_class": "IfcBeam",
+                "a_name": "L-Angle-Column:L2-1/2X2-1/2X1/4:696457",
+                "b_name": "L-Angle:L3-1/2X3X3/8:696954",
+                "type": "pierce",
+                "p1": [
+                    -36.52350333918805,
+                    104.35056234156397,
+                    4.789999999940014
+                ],
+                "p2": [
+                    -36.52340985192376,
+                    104.35055114849602,
+                    4.7045821051882
+                ],
+                "distance": 0.07620000000000005
+            },
+            "0VNYAWfXv8JvIRVfOzYH5h-1HXmQbW497zOJ$tovXeMnm": {
+                "a_global_id": "0VNYAWfXv8JvIRVfOzYH5h",
+                "b_global_id": "1HXmQbW497zOJ$tovXeMnm",
+                "a_ifc_class": "IfcColumn",
+                "b_ifc_class": "IfcBeam",
+                "a_name": "NZ-UC-Column:310UC96.8:691987",
+                "b_name": "NZ-PFC Channels beam:300PFC40.1:697117",
+                "type": "protrusion",
+                "p1": [
+                    -38.32213936721751,
+                    96.92502644555199,
+                    3.91999999999982
+                ],
+                "p2": [
+                    -38.321955069449345,
+                    96.92580876320977,
+                    3.909475201131733
+                ],
+                "distance": 0.010555443041327673
+            },
+            "0VNYAWfXv8JvIRVfOzYGqK-0VNYAWfXv8JvIRVfOzYGqV": {
+                "a_global_id": "0VNYAWfXv8JvIRVfOzYGqK",
+                "b_global_id": "0VNYAWfXv8JvIRVfOzYGqV",
+                "a_ifc_class": "IfcBeam",
+                "b_ifc_class": "IfcColumn",
+                "a_name": "L-Angle:L3-1/2X3X3/8:693100",
+                "b_name": "L-Angle-Column:L2-1/2X2-1/2X1/4:693095",
+                "type": "pierce",
+                "p1": [
+                    -30.565879924272238,
+                    104.41188446668639,
+                    4.706822142630141
+                ],
+                "p2": [
+                    -30.580365417048867,
+                    104.35046999377775,
+                    4.702001570453919
+                ],
+                "distance": 0.06328352787049678
+            },
+            "1HXmQbW497zOJ$tovXeLME-1HXmQbW497zOJ$tovXeLLk": {
+                "a_global_id": "1HXmQbW497zOJ$tovXeLME",
+                "b_global_id": "1HXmQbW497zOJ$tovXeLLk",
+                "a_ifc_class": "IfcBeam",
+                "b_ifc_class": "IfcColumn",
+                "a_name": "NZ-PFC Channels beam:300PFC40.1:695011",
+                "b_name": "NZ-PFC Channels-Column:300PFC40.1:694787",
+                "type": "pierce",
+                "p1": [
+                    -30.674265871765147,
+                    103.97505255549291,
+                    4.46049999999991
+                ],
+                "p2": [
+                    -30.68352191945995,
+                    103.93773497803721,
+                    4.457564070381712
+                ],
+                "distance": 0.03856028642026088
+            },
+            "1HXmQbW497zOJ$tovXeLDX-1HXmQbW497zOJ$tovXeL5k": {
+                "a_global_id": "1HXmQbW497zOJ$tovXeLDX",
+                "b_global_id": "1HXmQbW497zOJ$tovXeL5k",
+                "a_ifc_class": "IfcBeam",
+                "b_ifc_class": "IfcColumn",
+                "a_name": "NZ-PFC Channels beam:300PFC40.1:695308",
+                "b_name": "NZ-PFC Channels-Column:300PFC40.1:695811",
+                "type": "protrusion",
+                "p1": [
+                    -26.527888668883136,
+                    96.82124354207184,
+                    3.9182041441606694
+                ],
+                "p2": [
+                    -26.529010136889656,
+                    96.83186062135537,
+                    3.91820414416067
+                ],
+                "distance": 0.010676144575764433
+            },
+            "0VNYAWfXv8JvIRVfOzYGtb-0VNYAWfXv8JvIRVfOzYGtW": {
+                "a_global_id": "0VNYAWfXv8JvIRVfOzYGtb",
+                "b_global_id": "0VNYAWfXv8JvIRVfOzYGtW",
+                "a_ifc_class": "IfcBeam",
+                "b_ifc_class": "IfcColumn",
+                "a_name": "L-Angle:L3-1/2X3X3/8:693149",
+                "b_name": "L-Angle-Column:L2-1/2X2-1/2X1/4:693144",
+                "type": "pierce",
+                "p1": [
+                    -27.644879607906045,
+                    104.41188439215713,
+                    4.706839690169827
+                ],
+                "p2": [
+                    -27.659347107137794,
+                    104.35047192782935,
+                    4.702021509441805
+                ],
+                "distance": 0.06327728008031042
+            }
+        }
+    }
+]
